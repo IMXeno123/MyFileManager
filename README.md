@@ -1,6 +1,7 @@
 # MyFileManager
 
 MyFileManager is a simple and easy file management tool.
+Use [filetype.py](https://github.com/h2non/filetype.py), os and re modules to assist in file management operations.
 
 ## Features
 
