@@ -12,11 +12,10 @@ class MyFileProcess:
         else:
             log_1 = True
         files = os.listdir(dir_)
-        ex = r"\."
         for file in files:
             path = f"{dir_}/{file}"
             if os.path.isfile(path):
-                if not re.findall(ex,file):
+                if not re.findall(r"\.",file):
                     kind = filetype.guess(f"{dir_}/{file}")
                     if kind==None:
                             continue
@@ -54,13 +53,11 @@ class MyFileProcess:
             log_1 = False
         else:
             log_1 = True
-        ex = r"\."
-        ex_1 = r"\\"
         for root, dirs, files in os.walk(dir_):
-            dir_ = re.sub(ex_1, "/", root)
+            dir_ = re.sub(r"\\", "/", root)
             if files:
                 for file in files:
-                    if not re.findall(ex,file):
+                    if not re.findall(r"\.",file):
                         kind = filetype.guess(f"{dir_}/{file}")
                         if kind==None:
                             continue
