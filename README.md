@@ -7,6 +7,7 @@ Use [filetype.py](https://github.com/h2non/filetype.py), os and re modules to as
 
 1. Repairing files without extensions.
 2. Supports scanning all directories.
+3. Coming soon...
 
 ## Supported types
 
