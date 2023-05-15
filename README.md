@@ -1,4 +1,4 @@
-# NewRepo# MyFileManager
+# MyFileManager
 
 MyFileManager is a simple and easy file management tool.
 
