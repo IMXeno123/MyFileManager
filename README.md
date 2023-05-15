@@ -9,4 +9,5 @@ Use [filetype.py](https://github.com/h2non/filetype.py), os and re modules to as
 2. Supports scanning all directories.
 
 ## Supported types
+
 [Supported types](https://github.com/h2non/filetype#supported-types)
