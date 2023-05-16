@@ -11,8 +11,7 @@ class MyFileProcess:
             log_1 = False
         else:
             log_1 = True
-        files = os.listdir(dir_)
-        for file in files:
+        for file in os.listdir(dir_):
             path = f"{dir_}/{file}"
             if os.path.isfile(path):
                 if not re.findall(r"\.",file):
