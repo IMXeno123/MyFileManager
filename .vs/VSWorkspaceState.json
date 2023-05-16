@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Modules"
   ],
-  "SelectedNode": "\\E:\\Documents\\My project\\Source\\Repos\\NewRepo",
+  "SelectedNode": "\\Modules\\__init__.py",
   "PreviewInSolutionExplorer": false
 }
