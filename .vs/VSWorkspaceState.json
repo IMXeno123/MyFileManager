@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\Modules"
   ],
-  "SelectedNode": "\\Modules\\MyFileManager.py",
+  "SelectedNode": "\\tests.py",
   "PreviewInSolutionExplorer": false
 }
