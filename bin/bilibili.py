@@ -11,15 +11,15 @@ encoding = r.encoding
 page_text = r.text
 tree = etree.HTML(page_text)
 details = tree.xpath('/html/body/div[3]/main/div/div[3]/article//details')
-list_cdn = []
 with open("./bcnd.txt","w",encoding=encoding) as fp:
+    print("Writing File... ...")
     for code in details:
         cdn = code.xpath('./div/pre/code/text()')[0]
         list_cdn = re.findall(pattern,cdn,re.M)
         for cdn in list_cdn:
             if cdn:
-                print(cdn)
+                #print(cdn)
                 cdn = cdn + "\n"
                 fp.write(cdn)
 print("-------------------------------------------")
-print("done")
+print("Done")
